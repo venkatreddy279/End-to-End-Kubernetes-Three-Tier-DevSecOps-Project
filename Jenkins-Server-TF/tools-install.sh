@@ -29,7 +29,8 @@ sudo chmod 777 /var/run/docker.sock
 
 # Run Docker Container of Sonarqube
 #!/bin/bash
-docker run -d  --name sonar -p 9000:9000 sonarqube:lts-community
+# Decided to use my own sonar server
+# docker run -d  --name sonar -p 9000:9000 sonarqube:lts-community
 
 
 # Installing AWS CLI
